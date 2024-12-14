@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ControllerKadai;
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,4 +18,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/post', [ControllerKadai::class, 'index']);
+Route::get('/posts', [PostController::class, 'index']);
