@@ -4,6 +4,7 @@ use App\Http\Controllers\ControllerKadai;
 use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
