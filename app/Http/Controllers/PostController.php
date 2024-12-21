@@ -29,8 +29,8 @@ class PostController extends Controller
     {
         // バリデーションの実施
         $validatedData = $request->validate([
-            'title' => 'required|max:255',
-            'content' => 'required',
+            'title' => 'required|max:20',
+            'content' => 'required|max:200',
         ]);
 
         // 新しい投稿データを保存
